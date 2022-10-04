@@ -1,2 +1,2 @@
-# ConsultingWebsite
-The site is available via the link to github pages: https://dimkael.github.io/ConsultingWebsite/
+# BagWebsite
+The site is available via the link to github pages: https://SilsVl.github.io/BagWebsite/
