@@ -349,6 +349,7 @@ html, body {
     text-align: center;
     line-height: calc(57 / 40);
     letter-spacing: 0.2px;
+    margin-bottom: 150px;
 }
 
 .header-block__title {
@@ -367,6 +368,10 @@ html, body {
 
 .advantages {
     padding-top: 180px;
+    background: url("../img/advantages/background.jpg");
+    background-position: center;
+    background-size:contain;
+    margin-top: 100px;
 }
 @media (max-width: 992px) {
     .advantages {
@@ -385,7 +390,8 @@ html, body {
 }
 
 .advantages__column {
-    padding: 0 15px;
+    display: flex;
+    padding: 15px;
     margin-bottom: 30px;
     flex: 0 1 25%;
 }
@@ -429,10 +435,26 @@ html, body {
     line-height: calc(24 / 16);
 }
 
+.advantages__icon_size{
+    width: 48px;
+}
+
+.advantages__icon_size:last-child {
+    width: 36px;
+}
+
+.header-block__sub-title {
+    font-size: 24px;
+    color: #252b42;
+}
+
 /* ----------------- PRACTICE ----------------------- */
 
 .practice {
     padding: 125px 0 80px 0;
+    background: url("../img/advantages/background.jpg");
+    background-position: center;
+    background-size:contain;
 }
 
 .practice__header {
@@ -499,7 +521,7 @@ html, body {
 
 .item-practice__image {
     display: block;
-    padding-bottom: 60%;
+    padding-bottom: 30%;
 }
 
 /* ----------------- WHO WE ARE ----------------------- */
