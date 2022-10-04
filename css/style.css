@@ -529,6 +529,7 @@ html, body {
 .whoweare {
     background-color: #fff;
     padding: 180px 0 130px 0;
+    color: #AD886F;
 }
 @media (max-width: 767px) {
     .whoweare {
@@ -597,7 +598,7 @@ html, body {
 
 .whoweare__title {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 32px;
     letter-spacing: 0.2px;
     line-height: calc(57 / 40);
 }
@@ -676,7 +677,7 @@ html, body {
 .subscribe__body {
     padding: 30px 50px;
     align-items: center;
-    background: #17213C;
+    background: #411813;
     border-radius: 5px 5px 0 0;
 }
 @media (min-width: 1070px) {
@@ -687,7 +688,7 @@ html, body {
 
 .subscribe__title {
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
     line-height: calc(32 / 24);
     font-weight: 700;
     letter-spacing: 0.1px;
@@ -733,7 +734,7 @@ html, body {
 }
 
 .subscribe__button {
-    background: #FF7B47;
+    background: #94754C;
     color: #fff;
     font-size: 14px;
     line-height: calc(28 / 14);
@@ -748,8 +749,8 @@ html, body {
 }
 .subscribe__button:hover {
     cursor: pointer;
-    color: #FF7B47;
-    border: 1px solid #FF7B47;
+    color: #94754C;
+    border: 1px solid #94754C;
     background: #fff;
 }
 
@@ -757,6 +758,7 @@ html, body {
 
 .getintouch {
     padding: 180px 0 130px 0;
+    color: #94754C;
 }
 @media (max-width: 992px) {
     .getintouch {
@@ -796,7 +798,7 @@ html, body {
 .item-getintouch_active {
     padding: 80px 15px;
     color: #fff;
-    background: #252B42;
+    background: #411813;
 }
 @media (max-width: 992px) {
     .item-getintouch_active {
@@ -835,9 +837,9 @@ html, body {
     min-height: 44px;
     line-height: calc(24 / 14);
     padding: 5px 20px;
-    border: 1px solid #FF7B47;
+    border: 1px solid #94754C;
     border-radius: 5px;
-    color: #FF7B47;
+    color: #94754C;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -847,7 +849,7 @@ html, body {
 }
 .item-getintouch__button:hover {
     color: #fff;
-    background-color: #FF7B47;
+    background-color: #94754C;
 }
 
 .item-getintouch_active .item-getintouch__button {
@@ -856,7 +858,7 @@ html, body {
 }
 
 .item-getintouch_active .item-getintouch__button:hover {
-    color: #252B42;
+    color: #411813;
     background-color: #fff;
 }
 
@@ -906,14 +908,14 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FF7B47;
+    background: #94754C;
     color: #fff;
     border-radius: 5px;
-    border: 1px solid #FF7B47;
+    border: 1px solid #94754C;
     transition: all 0.3s ease 0s;
 }
 .contact__button:hover {
-    color: #FF7B47;
+    color: #94754C;
     background: #fff;
     cursor: pointer;
 }
