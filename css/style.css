@@ -60,14 +60,17 @@ html, body {
 }
 
 .header__logo {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 700;
     color: inherit;
     padding: 20px 0;
+    color: #AD886F;
 }
 
 .header__menu {
-    margin-left: 133px;
+    margin-left: 260px;
+    font-size: 26px;
+
 }
 @media (max-width: 992px) {
     .header__menu {
@@ -109,8 +112,8 @@ html, body {
 }
 
 .menu__link {
-    color: #737373;
-    font-weight: 600;
+    color: #CDC8C3;
+    font-weight: 700;
     line-height: calc(24 / 14);
 }
 .menu__link:hover {
@@ -168,8 +171,10 @@ html, body {
 .main-block__title {
     font-size: 58px;
     line-height: calc(80 / 58);
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0.2px;
+    color: #AD886F;
+    margin-bottom: 35px !important;
 }
 @media (max-width: 479px) {
     .main-block__title {
@@ -178,7 +183,7 @@ html, body {
 }
 
 .main-block__text {
-    color: #737373;
+    color: #CDC8C3;
     font-size: 20px;
     line-height: calc(30 / 20);
 }
@@ -218,23 +223,24 @@ html, body {
     }
 }
 
-.main-block__button_orange {
-    background: #ff7b47;
+.main-block__button_brown {
+    background: #411813;
     color: #fff;
 }
 
-.main-block__button_orange:hover {
+.main-block__button_brown:hover {
     background-color: #fff;
-    color: #ff7b47;
+    color: #411813;
 }
 
 .main-block__button_border {
-    color: #0D5C63;
-    border: 1px solid #0D5C63;
+    background: #411813;
+    color: #fff;
+    
 }
 
 .main-block__button_border:hover {
-    background-color: #0D5C63;
+    background-color: #411813;
     color: #fff;
 }
 
@@ -244,6 +250,7 @@ html, body {
     height: 100%;
     top: 0;
     left: 0;
+    filter: brightness(60%);
 }
 @media (max-width: 1300px) {
     .main-block__image img {
@@ -315,7 +322,7 @@ html, body {
 }
 
 .item-service_green {
-    background-color: #0D5C63;
+    background-color: #411813;
 }
 
 .item-service_green .item-service__title {
@@ -330,6 +337,11 @@ html, body {
     color: #737373;
     line-height: calc(20 / 14);
 }
+
+.item-service__icon_size {
+    width: 70px;
+}
+
 
 /* ----------------- HEADER-BLOCK ----------------------- */
 
@@ -887,7 +899,7 @@ html, body {
 /* ----------------- FOOTER ----------------------- */
 
 .footer__top {
-    background: #17213C;
+    background: #94754C;
     padding: 35px 0;
 }
 
