@@ -758,7 +758,7 @@ html, body {
 
 .getintouch {
     padding: 180px 0 130px 0;
-    color: #94754C;
+    color: #AD886F;
 }
 @media (max-width: 992px) {
     .getintouch {
@@ -867,6 +867,7 @@ html, body {
 .contact {
     background-color: #fff;
     padding: 42px 0;
+    color: #AD886F;
 }
 
 .contact__content {
